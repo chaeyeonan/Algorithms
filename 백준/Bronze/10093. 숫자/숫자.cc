@@ -5,18 +5,13 @@ using namespace std;
 
 int main()
 {
-    long long a,b,A,B;
+    long long a,b;
 
     //입력
-    cin>>A>>B;
+    cin>>a>>b;
     
-    if(A<B){
-        a=A;
-        b=B;
-    }
-    else {
-        a=B;
-        b=A;
+    if(a>b){
+        swap(a,b);
     }
     
     //출력
