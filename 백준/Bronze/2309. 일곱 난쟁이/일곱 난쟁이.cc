@@ -26,9 +26,9 @@ int main()
         }
     }
      
+    sort(arr,arr+9);
     
     for(int i=0; i<9; i++){
-        sort(arr,arr+9);
         if(arr[i]!=a && arr[i]!=b) {
             cout<<arr[i]<<"\n";
         }
