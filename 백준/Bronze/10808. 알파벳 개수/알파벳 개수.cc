@@ -3,9 +3,10 @@
 
 using namespace std;
 
+int arr[26];
+
 int main()
 {
-    int arr[26]={};
     string S;
     cin>>S;
     
