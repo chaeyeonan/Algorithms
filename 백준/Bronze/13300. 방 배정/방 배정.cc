@@ -6,7 +6,7 @@ int room = 0;
 
 int roomNum(int i, int k) {
 
-	if (i % k == 0) { //i가 짝수
+	if (i % k == 0) { 
 		room += i / k;
 	}
 	else {
