@@ -32,9 +32,6 @@ int main() {
 
 	for (int i = 1; i < 7; i++) {
 		if (girl[i] > 0) roomNum(girl[i], k);
-	}
-
-	for (int i = 1; i < 7; i++) {
 		if (boy[i] > 0) roomNum(boy[i], k);
 	}
 
