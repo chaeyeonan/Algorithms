@@ -9,7 +9,7 @@ int main()
     
     cin>>k;
     
-    for (int i = 0; i < k; i++) {
+    while(k--) {
 		stack<char> st;
 		string s;
 		cin >> s;
